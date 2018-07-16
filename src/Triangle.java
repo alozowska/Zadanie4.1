@@ -4,8 +4,10 @@ public class Triangle {
     private int c;
 
 
-
-    public Triangle() {
+    public Triangle(int a, int b, int c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
 
     }
 
