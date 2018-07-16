@@ -13,7 +13,7 @@ public class RightTriangle {
     }
 
     public boolean isRightTriangle(Triangle triangle) {
-        if (triangle.getKwadratA() + triangle.getKwadratB() == triangle.getKwadratC()) {
+        if (kwadratA(triangle) + kwadratB(triangle) == kwadratC(triangle)) {
             return true;
 
         } else {
